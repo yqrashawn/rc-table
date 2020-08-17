@@ -1,37 +1,23 @@
 {
-  "name": "rc-table",
-  "version": "7.9.3",
+  "name": "@cfxjs/rc-table",
+  "version": "0.0.0",
   "description": "table ui component for react",
   "engines": {
     "node": ">=8.x"
   },
-  "keywords": [
-    "react",
-    "react-table",
-    "table",
-    "component",
-    "ui"
-  ],
-  "files": [
-    "assets/*.css",
-    "dist",
-    "es",
-    "lib"
-  ],
+  "keywords": ["react", "react-table", "table", "component", "ui"],
+  "files": ["assets/*.css", "dist", "es", "lib"],
   "main": "./lib/index",
   "module": "./es/index",
   "types": "./lib/index.d.ts",
-  "homepage": "http://github.com/react-component/table",
-  "maintainers": [
-    "yiminghe@gmail.com",
-    "afc163@gmail.com"
-  ],
+  "homepage": "http://github.com/yqrashawn/rc-table",
+  "maintainers": ["yiminghe@gmail.com", "afc163@gmail.com", "namy.19@gmail.com"],
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/table.git"
+    "url": "git@github.com:yqrashawn/rc-table.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/table/issues"
+    "url": "http://github.com/yqrashawn/rc-table/issues"
   },
   "license": "MIT",
   "scripts": {
@@ -39,7 +25,6 @@
     "build": "father doc build --storybook",
     "compile": "father build && lessc assets/index.less assets/index.css",
     "gh-pages": "npm run build && father doc deploy",
-    "prepublishOnly": "npm run compile && np --yolo --no-publish",
     "postpublish": "npm run gh-pages",
     "lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
@@ -73,7 +58,6 @@
     "father": "^2.22.0",
     "immutability-helper": "^3.0.0",
     "less": "^3.10.3",
-    "np": "^6.0.0",
     "prettier": "^2.0.1",
     "rc-animate": "^3.0.0",
     "rc-dropdown": "~3.1.0",
@@ -87,7 +71,28 @@
     "react-test-renderer": "^16.0.0",
     "react-virtualized": "^9.12.0",
     "react-window": "^1.8.5",
+    "semantic-release": "^17.1.1",
     "styled-components": "^5.0.1",
     "typescript": "^3.7.2"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      {
+        "name": "rc",
+        "channel": "rc",
+        "prerelease": "rc"
+      }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
