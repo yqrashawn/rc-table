@@ -182,6 +182,9 @@ function BodyRow<RecordType extends { children?: RecordType[] }>(props: BodyRowP
         expanded={expanded}
         className={classNames(
           `${prefixCls}-expanded-row`,
+          {
+            [`${prefixCls}-row-even`]: index % 2 === 0,
+          },
           `${prefixCls}-expanded-row-level-${indent + 1}`,
           computedExpandedRowClassName,
         )}

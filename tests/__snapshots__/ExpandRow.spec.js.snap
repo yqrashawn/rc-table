@@ -286,7 +286,7 @@ exports[`Table.Expand renders fixed column correctly work 1`] = `
             </td>
           </tr>
           <tr
-            class="rc-table-expanded-row rc-table-expanded-row-level-1"
+            class="rc-table-expanded-row rc-table-row-even rc-table-expanded-row-level-1"
           >
             <td
               class="rc-table-cell"
