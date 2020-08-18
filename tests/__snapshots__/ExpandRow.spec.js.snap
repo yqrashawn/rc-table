@@ -34,7 +34,7 @@ exports[`Table.Expand childrenColumnName 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="0"
           >
             <td
@@ -55,7 +55,7 @@ exports[`Table.Expand childrenColumnName 1`] = `
             </td>
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-1"
+            class="rc-table-row rc-table-row-even rc-table-row-level-1"
             data-row-key="2"
           >
             <td
@@ -137,7 +137,7 @@ exports[`Table.Expand not use nest when children is invalidate 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="2"
           >
             <td
@@ -167,7 +167,7 @@ exports[`Table.Expand not use nest when children is invalidate 1`] = `
             </td>
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="5"
           >
             <td
@@ -256,7 +256,7 @@ exports[`Table.Expand renders fixed column correctly work 1`] = `
             />
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="0"
           >
             <td
@@ -390,7 +390,7 @@ exports[`Table.Expand renders tree row correctly 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="0"
           >
             <td
@@ -411,7 +411,7 @@ exports[`Table.Expand renders tree row correctly 1`] = `
             </td>
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-1"
+            class="rc-table-row rc-table-row-even rc-table-row-level-1"
             data-row-key="2"
           >
             <td
@@ -493,7 +493,7 @@ exports[`Table.Expand renders tree row correctly with different children 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="0"
           >
             <td
@@ -535,7 +535,7 @@ exports[`Table.Expand renders tree row correctly with different children 1`] = `
             </td>
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="2"
           >
             <td
@@ -577,7 +577,7 @@ exports[`Table.Expand renders tree row correctly with different children 1`] = `
             </td>
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="4"
           >
             <td

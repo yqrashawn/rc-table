@@ -105,6 +105,9 @@ function BodyRow<RecordType extends { children?: RecordType[] }>(props: BodyRowP
       className={classNames(
         className,
         `${prefixCls}-row`,
+        {
+          [`${prefixCls}-row-even`]: index % 2 === 0,
+        },
         `${prefixCls}-row-level-${indent}`,
         computeRowClassName,
         additionalProps && additionalProps.className,

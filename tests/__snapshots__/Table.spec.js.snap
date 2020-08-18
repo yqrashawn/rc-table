@@ -35,7 +35,7 @@ exports[`Table.Basic custom components renders correctly 1`] = `
           name="my-body-wrapper"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="key0"
             name="my-body-row"
           >
@@ -145,7 +145,7 @@ exports[`Table.Basic custom components renders fixed column and header correctly
             />
           </tr>
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="0"
             name="my-body-row"
           >
@@ -255,7 +255,7 @@ exports[`Table.Basic internal api transformColumns 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="key0"
           >
             <td
@@ -323,7 +323,7 @@ exports[`Table.Basic renders colSpan correctly 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="key0"
           >
             <td
@@ -384,7 +384,7 @@ exports[`Table.Basic renders correctly RTL 1`] = `
           class="test-prefix-tbody"
         >
           <tr
-            class="test-prefix-row test-prefix-row-level-0"
+            class="test-prefix-row test-prefix-row-even test-prefix-row-level-0"
             data-row-key="key0"
           >
             <td
@@ -439,7 +439,7 @@ exports[`Table.Basic renders correctly basic 1`] = `
           class="test-prefix-tbody"
         >
           <tr
-            class="test-prefix-row test-prefix-row-level-0"
+            class="test-prefix-row test-prefix-row-even test-prefix-row-level-0"
             data-row-key="key0"
           >
             <td
@@ -499,7 +499,7 @@ exports[`Table.Basic renders correctly column children undefined 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="key0"
           >
             <td
@@ -558,7 +558,7 @@ exports[`Table.Basic renders correctly no columns 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="key0"
           >
             <td
@@ -614,7 +614,7 @@ exports[`Table.Basic renders rowSpan correctly 1`] = `
           class="rc-table-tbody"
         >
           <tr
-            class="rc-table-row rc-table-row-level-0"
+            class="rc-table-row rc-table-row-even rc-table-row-level-0"
             data-row-key="key0"
           >
             <td
